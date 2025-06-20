@@ -1,0 +1,22 @@
+# Jupyter Notebook environment
+jupyter
+
+# Data manipulation and processing
+pandas
+numpy
+
+# Visualization (optional, if any notebooks include visual output)
+matplotlib
+
+# API clients
+anthropic  # Replace with actual package if a specific Anthropic client exists
+cohere  # Official Cohere Python client
+openai  # Official OpenAI Python client
+
+# Additional utilities
+requests  # for making HTTP requests if direct API calls are needed
+tqdm  # for progress bars
+python-dotenv  # for managing environment variables (e.g., API keys)
+
+# Custom GitHub repository
+-e git+https://github.com/simonpierreboucher/llm_python_notebook.git#egg=llm_python_notebook
